@@ -1,6 +1,30 @@
 //Customize Bootstrap
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
 
 // Import Bootstrap from node_modules
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // All custom code
+body{
+    background-color: #f6f6f6;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.green{
+    color: #79a206;
+}
+
+.li-bar{
+    width: 1px;
+    background-color: #79a206;
+    height: 1rem;
+}
+
+.nav-icon{
+    font-size: 18px;
+    color: #555252;
+}

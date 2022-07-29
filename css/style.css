@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"); /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
@@ -49,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -10757,6 +10757,31 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+/*..........................
+...... customize code ......
+..........................*/
+
+body {
+  background-color: #f6f6f6;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.green {
+  color: #79a206;
+}
+
+.li-bar {
+  width: 1px;
+  background-color: #79a206;
+  height: 1rem;
+}
+
+.nav-icon {
+  font-size: 18px;
+  color: #555252;
 }
 
 /*# sourceMappingURL=style.css.map */
