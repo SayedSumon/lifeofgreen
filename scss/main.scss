@@ -12,6 +12,7 @@ body{
     background-color: #f6f6f6;
     width: 100vw;
     min-height: 100vh;
+    
 }
 
 .green{
@@ -25,6 +26,89 @@ body{
 }
 
 .nav-icon{
-    font-size: 18px;
+    font-size: 20px;
     color: #555252;
 }
+.nav-icon:hover{
+    color: #79a206;
+}
+
+.menubar{
+    font-size: 15px;
+}
+
+.navbar{
+    font-size: 14px;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.custom-dropdown{
+    position: relative;
+    color: #555252;
+}
+
+.custom-dropdown:hover{
+    color: #79a206;
+}
+.custom-dropdown:hover ul{
+    display: block;
+}
+
+.custom-dropdown ul{
+    display: none;
+    position: absolute;
+    z-index: 220;
+    width: 125px;
+    padding: 8px 12px 10px;
+    border-radius: 0.15rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+}
+
+.carousel{
+    height: 500px;
+}
+.carousel-item img{
+    height: fit-content;
+}
+
+.carousel-text{
+    position:absolute;
+    top:150px;
+    left:85px;
+    width: 45%;
+}
+.carousel-text-1{
+    position:absolute;
+    top:120px;
+    left:85px;
+    width: 45%;
+}
+
+.carousel-text h1, .carousel-text-1 h1{
+    font-size: 70px;
+}
+
+.carousel-btn{
+    border: 2px solid #000;
+    border-radius: 0;
+    width: 15rem;
+    height: 3rem;
+}
+.carousel-btn:hover{
+    border: 2px solid #618109;
+    border-radius: 0;
+    color: #f6f6f6;
+    background-color: #79a206;
+}
+
+.carousel-control-prev, 
+.carousel-control-next{
+    width: 5rem;
+    filter: invert(100%);
+}
+
