@@ -1,5 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"); /*!
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+/*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
@@ -10821,11 +10823,11 @@ body {
 }
 
 .carousel {
-  height: 500px;
+  height: 520px;
 }
 
 .carousel-item img {
-  height: fit-content;
+  height: 520px;
 }
 
 .carousel-text {
@@ -10842,7 +10844,9 @@ body {
   width: 45%;
 }
 
-.carousel-text h1, .carousel-text .h1, .carousel-text-1 h1, .carousel-text-1 .h1 {
+.carousel-text h1, .carousel-text .h1,
+.carousel-text-1 h1,
+.carousel-text-1 .h1 {
   font-size: 70px;
 }
 
@@ -10864,6 +10868,53 @@ body {
 .carousel-control-next {
   width: 5rem;
   filter: invert(100%);
+}
+
+.banner_area {
+  margin-top: 85px;
+  margin-bottom: 88px;
+}
+.banner_area .banner_thumb {
+  position: relative;
+  overflow: hidden;
+  border: 4px solid #fff;
+}
+.banner_area .banner_thumb:hover a img {
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+.banner_area .banner_thumb img {
+  width: 100%;
+  transition: all 0.1s ease 0s;
+  transform: scale(1);
+}
+.banner_area .banner_thumb .banner_content {
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+}
+.banner_area .banner_thumb .banner_content h3, .banner_area .banner_thumb .banner_content .h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #79a206;
+}
+.banner_area .banner_thumb .banner_content h2, .banner_area .banner_thumb .banner_content .h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.banner_area .banner_thumb .banner_content a {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #79a206;
+  text-transform: uppercase;
+  margin-top: 36px;
+}
+.banner_area .banner_thumb .banner_content a:hover {
+  color: #79a206;
 }
 
 /*# sourceMappingURL=style.css.map */

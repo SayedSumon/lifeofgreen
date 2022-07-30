@@ -1,5 +1,6 @@
 //Customize Bootstrap
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
 $font-family-sans-serif: 'Poppins', sans-serif;
 
@@ -8,56 +9,58 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // All custom code
-body{
+body {
     background-color: #f6f6f6;
     width: 100vw;
     min-height: 100vh;
-    
+
 }
 
-.green{
+.green {
     color: #79a206;
 }
 
-.li-bar{
+.li-bar {
     width: 1px;
     background-color: #79a206;
     height: 1rem;
 }
 
-.nav-icon{
+.nav-icon {
     font-size: 20px;
     color: #555252;
 }
-.nav-icon:hover{
+
+.nav-icon:hover {
     color: #79a206;
 }
 
-.menubar{
+.menubar {
     font-size: 15px;
 }
 
-.navbar{
+.navbar {
     font-size: 14px;
 }
 
-.nav-item{
+.nav-item {
     cursor: pointer;
 }
 
-.custom-dropdown{
+.custom-dropdown {
     position: relative;
     color: #555252;
 }
 
-.custom-dropdown:hover{
+.custom-dropdown:hover {
     color: #79a206;
 }
-.custom-dropdown:hover ul{
+
+.custom-dropdown:hover ul {
     display: block;
 }
 
-.custom-dropdown ul{
+.custom-dropdown ul {
     display: none;
     position: absolute;
     z-index: 220;
@@ -69,46 +72,106 @@ body{
     box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
 }
 
-.carousel{
-    height: 500px;
-}
-.carousel-item img{
-    height: fit-content;
+.carousel {
+    height: 520px;
 }
 
-.carousel-text{
-    position:absolute;
-    top:150px;
-    left:85px;
-    width: 45%;
+.carousel-item img {
+    height: 520px;
 }
-.carousel-text-1{
-    position:absolute;
-    top:120px;
-    left:85px;
+
+.carousel-text {
+    position: absolute;
+    top: 150px;
+    left: 85px;
     width: 45%;
 }
 
-.carousel-text h1, .carousel-text-1 h1{
+.carousel-text-1 {
+    position: absolute;
+    top: 120px;
+    left: 85px;
+    width: 45%;
+}
+
+.carousel-text h1,
+.carousel-text-1 h1 {
     font-size: 70px;
 }
 
-.carousel-btn{
+.carousel-btn {
     border: 2px solid #000;
     border-radius: 0;
     width: 15rem;
     height: 3rem;
 }
-.carousel-btn:hover{
+
+.carousel-btn:hover {
     border: 2px solid #618109;
     border-radius: 0;
     color: #f6f6f6;
     background-color: #79a206;
 }
 
-.carousel-control-prev, 
-.carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
     width: 5rem;
     filter: invert(100%);
 }
 
+.banner_area {
+    margin-top: 85px;
+    margin-bottom: 88px;
+
+    .banner_thumb {
+        position: relative;
+        overflow: hidden;
+        border: 4px solid #fff;
+
+        &:hover a img {
+            transition: .8s;
+            transform: scale(1.2);
+        }
+
+        img {
+            width: 100%;
+            transition: all .1s ease 0s;
+            transform: scale(1);
+        }
+
+        .banner_content {
+            position: absolute;
+            top: 4rem;
+            left: 2rem;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 400;
+                color: #79a206;
+            }
+
+            h2 {
+                font-size: 30px;
+                font-weight: 400;
+            }
+
+            a {
+                font-size: 13px;
+                line-height: 24px;
+                font-weight: 500;
+                display: inline-block;
+                text-decoration: none;
+                color: #000;
+                border-bottom: 2px solid #79a206;
+                text-transform: uppercase;
+                margin-top: 36px;
+            }
+
+            a:hover{
+                color: #79a206;
+            }
+
+
+        }
+    }
+}
