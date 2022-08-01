@@ -10855,6 +10855,7 @@ body {
   border-radius: 0;
   width: 15rem;
   height: 3rem;
+  transition: all 0.5s ease 0s;
 }
 
 .carousel-btn:hover {
@@ -10870,9 +10871,41 @@ body {
   filter: invert(100%);
 }
 
+.support-bar {
+  width: 1px;
+  background-color: #79a206;
+  height: 3rem;
+}
+
+.support-wrap {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.support-wrap .support-content {
+  width: 390px;
+  height: 70px;
+  display: flex;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.support-wrap .support-content .support-text {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.support-wrap .support-content .support-text .fw-bold {
+  font-family: Lora;
+}
+.support-wrap .support-content .support-text p {
+  margin: 0;
+}
+.support-wrap .support-content img {
+  width: 48px;
+  height: 32px;
+}
+
 .banner_area {
-  margin-top: 85px;
-  margin-bottom: 88px;
+  margin-top: 50px;
+  margin-bottom: 90px;
 }
 .banner_area .banner_thumb {
   position: relative;
@@ -10915,6 +10948,81 @@ body {
 }
 .banner_area .banner_thumb .banner_content a:hover {
   color: #79a206;
+}
+
+.section-title h2, .section-title .h2 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0;
+  line-height: 36px;
+  position: relative;
+}
+.section-title h2:before, .section-title .h2:before, .section-title h2:after, .section-title .h2:after {
+  position: absolute;
+  top: 17px;
+  width: 80px;
+  height: 2px;
+  content: "";
+  background-color: #79a206;
+}
+.section-title h2:before, .section-title .h2:before {
+  left: -100px;
+}
+.section-title h2:after, .section-title .h2:after {
+  right: -100px;
+}
+
+.product-tab-list {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.product-tab-list .nav-link {
+  background-color: transparent !important;
+  margin: 0;
+  display: block;
+  padding: 8px 16px;
+}
+.product-tab-list a h4, .product-tab-list a .h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  color: #555252;
+  line-height: 24px;
+}
+.product-tab-list a.active h4, .product-tab-list a.active .h4, .product-tab-list a h4:hover, .product-tab-list a .h4:hover {
+  color: #79a206;
+  border-bottom: 2px solid #79a206;
+}
+
+.service-content {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.service-content .service-text {
+  position: absolute;
+  margin-top: 100px;
+  left: 100px;
+  line-height: 100px;
+}
+.service-content .service-text h1, .service-content .service-text .h1 {
+  font-family: Lora;
+  color: #79a206;
+  font-size: 60px;
+}
+.service-content .service-text .service-btn {
+  background-color: #000;
+  border-radius: 2rem;
+  color: #f6f6f6;
+  width: 10rem;
+  height: 3rem;
+  transition: all 0.5s ease 0s;
+}
+.service-content .service-text .service-btn:hover {
+  background-color: #79a206;
+  border: 2px solid #618109;
 }
 
 /*# sourceMappingURL=style.css.map */
