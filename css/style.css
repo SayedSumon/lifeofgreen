@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: #f6f6f6;
+  background-color: #FFFFFF;
   width: 100vw;
   min-height: 100vh;
 }
@@ -10879,7 +10879,7 @@ body {
   width: 390px;
   height: 70px;
   display: flex;
-  border: 1px solid #fff;
+  border: 1px solid #f6f6f6;
   padding: 5px;
 }
 .support-wrap .support-content .support-text {
@@ -10904,7 +10904,7 @@ body {
 .banner_area .banner_thumb {
   position: relative;
   overflow: hidden;
-  border: 4px solid #fff;
+  border: 4px solid #e6e6e6;
 }
 .banner_area .banner_thumb:hover a img {
   transition: 0.8s;
@@ -11021,6 +11021,9 @@ body {
   border: 2px solid #618109;
 }
 
+.review {
+  margin: 60px 0px;
+}
 .review .section_title {
   font-family: Lora;
   margin-bottom: 30px;
@@ -11067,6 +11070,82 @@ body {
 }
 .review .review-item .testimonial_content .testimonial_author p a:hover {
   color: #79a206;
+}
+
+.blog_section {
+  background: #f2f5f1;
+  padding: 88px 0 95px;
+}
+.blog_section .section_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blog_section .section_title h2, .blog_section .section_title .h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  position: relative;
+  font-family: "Lora";
+  padding-bottom: 22px;
+}
+.blog_section .section_title h2::before, .blog_section .section_title .h2::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #222222;
+  margin-top: 70px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.blog-item {
+  border: 0;
+  background-color: transparent;
+}
+.blog-item img {
+  width: 350px;
+  height: 220px;
+}
+.blog-item .card-body {
+  padding-left: 0;
+}
+.blog-item .card-body .card-title {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+.blog-item .card-body .card-title:hover {
+  color: #79a206;
+}
+.blog-item .card-body .card-date {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.blog-item .card-body .card-date span {
+  color: #79a206;
+}
+.blog-item .card-body .card-text {
+  font-size: 14px;
+  overflow: hidden;
+}
+.blog-item .card-footer {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.blog-item .card-footer a {
+  text-decoration: none;
+  color: #000;
+}
+.blog-item .card-footer a:hover {
+  color: #618109;
+}
+.blog-item .card-footer p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
