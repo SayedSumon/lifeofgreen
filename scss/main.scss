@@ -73,46 +73,49 @@ body {
 }
 
 //Banner section
-.carousel {
-    height: 520px;
-}
+.banner {
+    .carousel {
+        height: 520px;
+    }
 
-.carousel-item img {
-    height: 520px;
-}
+    .carousel-item img {
+        height: 520px;
+    }
 
-.carousel-text {
-    position: absolute;
-    top: 150px;
-    left: 85px;
-    width: 45%;
-}
+    .carousel-text {
+        position: absolute;
+        top: 150px;
+        left: 85px;
+        width: 45%;
+    }
 
-.carousel-text-1 {
-    position: absolute;
-    top: 120px;
-    left: 85px;
-    width: 45%;
-}
+    .carousel-text-1 {
+        position: absolute;
+        top: 120px;
+        left: 85px;
+        width: 45%;
+    }
 
-.carousel-text h1,
-.carousel-text-1 h1 {
-    font-size: 70px;
-}
+    .carousel-text h1,
+    .carousel-text-1 h1 {
+        font-size: 70px;
+    }
 
-.carousel-btn {
-    border: 2px solid #000;
-    border-radius: 0;
-    width: 15rem;
-    height: 3rem;
-    transition: all 0.5s ease 0s;
-}
+    .carousel-btn {
+        border: 2px solid #000;
+        border-radius: 0;
+        width: 15rem;
+        height: 3rem;
+        transition: all 0.5s ease 0s;
+    }
 
-.carousel-btn:hover {
-    border: 2px solid #618109;
-    border-radius: 0;
-    color: #f6f6f6;
-    background-color: #79a206;
+    .carousel-btn:hover {
+        border: 2px solid #618109;
+        border-radius: 0;
+        color: #f6f6f6;
+        background-color: #79a206;
+    }
+
 }
 
 .carousel-control-prev,
@@ -127,31 +130,33 @@ body {
     background-color: #79a206;
     height: 3rem;
 }
-.support-wrap{
+
+.support-wrap {
     margin-top: 60px;
     margin-bottom: 60px;
 
-    .support-content{
+    .support-content {
         width: 390px;
         height: 70px;
         display: flex;
         border: 1px solid #fff;
         padding: 5px;
 
-        .support-text{
+        .support-text {
             font-size: 14px;
             padding-left: 15px;
 
-            .fw-bold{
+            .fw-bold {
                 font-family: Lora;
             }
-            p{
+
+            p {
                 margin: 0;
 
             }
         }
 
-        img{
+        img {
             width: 48px;
             height: 32px;
         }
@@ -208,7 +213,7 @@ body {
                 margin-top: 36px;
             }
 
-            a:hover{
+            a:hover {
                 color: #79a206;
             }
 
@@ -218,8 +223,8 @@ body {
 }
 
 //Daily Deals CSS
-.section-title{
-    h2{
+.section-title {
+    h2 {
         font-family: Lora;
         font-size: 30px;
         font-weight: 600;
@@ -229,7 +234,7 @@ body {
         position: relative;
 
         &:before,
-        &:after{
+        &:after {
             position: absolute;
             top: 17px;
             width: 80px;
@@ -238,29 +243,29 @@ body {
             background-color: #79a206;
         }
 
-        &:before{
+        &:before {
             left: -100px;
         }
 
-        &:after{
+        &:after {
             right: -100px;
         }
     }
 }
 
 //Daily deals product tab list
-.product-tab-list{
+.product-tab-list {
     padding-top: 30px;
     padding-bottom: 60px;
 
-    .nav-link{
+    .nav-link {
         background-color: transparent !important;
         margin: 0;
         display: block;
         padding: 8px 16px;
     }
 
-    a h4{
+    a h4 {
         font-size: 18px;
         font-weight: 500;
         margin: 0;
@@ -269,30 +274,31 @@ body {
         line-height: 24px;
     }
 
-    a.active h4, a h4:hover{
+    a.active h4,
+    a h4:hover {
         color: #79a206;
         border-bottom: 2px solid #79a206;
     }
 }
 
 //service section
-.service-content{
+.service-content {
     margin-bottom: 60px;
     margin-top: 60px;
 
-    .service-text{
+    .service-text {
         position: absolute;
         margin-top: 100px;
         left: 100px;
         line-height: 100px;
 
-        h1{
+        h1 {
             font-family: Lora;
             color: #79a206;
             font-size: 60px;
         }
 
-        .service-btn{
+        .service-btn {
             background-color: #000;
             border-radius: 2rem;
             color: #f6f6f6;
@@ -300,14 +306,74 @@ body {
             height: 3rem;
             transition: all 0.5s ease 0s;
 
-            &:hover{
+            &:hover {
                 background-color: #79a206;
                 border: 2px solid #618109;
             }
         }
     }
 
-    
+
 }
 
+//review section
+.review {
+    .section_title {
+        font-family: Lora;
+        margin-bottom: 30px;
 
+        h1::before {
+            position: absolute;
+            content: "";
+            width: 80px;
+            height: 2px;
+            background: #222222;
+            top: 70px;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    }
+
+    .review-item {
+        margin-top: 30px;
+
+        .testimonial-icon-img {
+            margin-bottom: 45px;
+        }
+
+        .testimonial_content {
+            & >p {
+                font-size: 17px;
+                font-style: italic;
+                margin-bottom: 0;
+                padding: 0 162px;
+                line-height: 30px;
+            }
+
+            .testimonial_text_img {
+                margin-top: 22px;
+            }
+    
+            .testimonial_author {
+                margin-top: 17px;
+    
+                p {
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    color: #000;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                    }
+                    a:hover{
+                        color: #79a206;
+                    }
+                }
+            }
+        }
+
+    }
+}

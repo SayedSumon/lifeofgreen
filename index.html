@@ -9,7 +9,7 @@
     <!-- stylesheet link -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- font-awsome link -->
+    <!-- font-awesome link -->
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/regular.js"></script>
@@ -131,56 +131,58 @@
     <main>
         <!-- Banner section -->
         <section>
-            <div id="bannercontrol" class="carousel carousel-fade">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/slider/slider3.jpg" class="d-block w-100" alt="...">
-                        <!-- banner text -->
-                        <div class="container carousel-text">
-                            <h3>-20% off All Items</h3>
-                            <h1>Green Up Your Room</h1>
-                            <button class="btn btn-light carousel-btn">Shop Now</button>
+            <div class="banner">
+                <div id="bannercontrol" class="carousel carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slider/slider3.jpg" class="d-block w-100" alt="...">
+                            <!-- banner text -->
+                            <div class="container carousel-text">
+                                <h3>-20% off All Items</h3>
+                                <h1>Green Up Your Room</h1>
+                                <button class="btn btn-light carousel-btn">Shop Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider/slider2.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <!-- banner text -->
+                            <div class="container carousel-text-1">
+                                <h3>-30% off All Items</h3>
+                                <h1>Summer Offer 2022 <br>collection</h1>
+
+                                <button class="btn btn-light carousel-btn">Shop Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider/slider1.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <!-- banner text -->
+                            <div class="container carousel-text">
+                                <h3>-20% off All Items</h3>
+                                <h1>Green Up Your Room</h1>
+                                <button class="btn btn-light carousel-btn">Shop Now</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/slider/slider2.jpg" class="d-block w-100 img-fluid" alt="...">
-                        <!-- banner text -->
-                        <div class="container carousel-text-1">
-                            <h3>-30% off All Items</h3>
-                            <h1>Summer Offer 2022 <br>collection</h1>
 
-                            <button class="btn btn-light carousel-btn">Shop Now</button>
-                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#bannercontrol"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#bannercontrol"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/slider/slider1.jpg" class="d-block w-100 img-fluid" alt="...">
-                        <!-- banner text -->
-                        <div class="container carousel-text">
-                            <h3>-20% off All Items</h3>
-                            <h1>Green Up Your Room</h1>
-                            <button class="btn btn-light carousel-btn">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#bannercontrol"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#bannercontrol"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#bannercontrol" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
                 </div>
             </div>
         </section>
@@ -190,7 +192,7 @@
             <div class="container p-0">
                 <div class="support-wrap d-flex gap-5 align-items-center">
                     <div class="support-content align-items-center">
-                        <img src="./img/about/shipping1.png" alt="">
+                        <img src="./img/icon/shipping1.png" alt="">
                         <div class="support-text">
                             <p class="fw-bold">Free Delivery</p>
                             <p>Free shipping around the Dhaka for all
@@ -199,7 +201,7 @@
                     </div>
                     <div class="support-bar"></div>
                     <div class="support-content align-items-center">
-                        <img src="./img/about/shipping2.png" alt="">
+                        <img src="./img/icon/shipping2.png" alt="">
                         <div class="support-text">
                             <p class="fw-bold">Safe Payment</p>
                             <p>With our payment gateway, don’t worry
@@ -208,7 +210,7 @@
                     </div>
                     <div class="support-bar"></div>
                     <div class="support-content align-items-center">
-                        <img src="./img/about/shipping3.png" alt="">
+                        <img src="./img/icon/shipping3.png" alt="">
                         <div class="support-text">
                             <p class="fw-bold">Friendly Services</p>
                             <p>You have 30-day return guarantee for
@@ -299,7 +301,75 @@
             </div>
         </Section>
 
+        <!-- customer reviews -->
+        <section>
+            <div id="reviewcontrol" class="carousel review">
+                <div class="carousel-inner text-center">
+                    <div class="section_title">
+                        <h1>What Our Customers Says ?</h1>
+                    </div>
+                    <div class="carousel-item review-item active">
+                        <div class="testimonial-icon-img">
+                            <img src="./img/about/testimonials-icon.png" alt="">
+                        </div>
+                        <div class="testimonial_content">
+                            <p>“ When a beautiful design is combined with powerful technology, <br>
+                                it truly is an artwork. I love how my website operates and looks with this
+                                theme. Thank you for the awesome product. ”</p>
+                            <div class="testimonial_text_img">
+                                <a href="#"><img src="./img/about/testimonial1.png" alt=""></a>
+                            </div>
+                            <div class="testimonial_author">
+                                <p><a href="#">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" carousel-item review-item">
+                        <div class="testimonial-icon-img">
+                            <img src="./img/about/testimonials-icon.png" alt="">
+                        </div>
+                        <div class="testimonial_content">
+                            <p>“ When a beautiful design is combined with powerful technology, <br>
+                                it truly is an artwork. I love how my website operates and looks with this
+                                theme. Thank you for the awesome product. ”</p>
+                            <div class="testimonial_text_img">
+                                <a href="#"><img src="./img/about/testimonial2.png" alt=""></a>
+                            </div>
+                            <div class="testimonial_author">
+                                <p><a href="#">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item review-item">
+                        <div class="testimonial-icon-img">
+                            <img src="./img/about/testimonials-icon.png" alt="">
+                        </div>
+                        <div class="testimonial_content">
+                            <p>“ When a beautiful design is combined with powerful technology, <br>
+                                it truly is an artwork. I love how my website operates and looks with this
+                                theme. Thank you for the awesome product. ”</p>
+                            <div class="testimonial_text_img">
+                                <a href="#"><img src="./img/about/testimonial3.png" alt=""></a>
+                            </div>
+                            <div class="testimonial_author">
+                                <p><a href="#">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewcontrol"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewcontrol"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </main>
     <footer>
 

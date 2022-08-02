@@ -10822,43 +10822,37 @@ body {
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
 }
 
-.carousel {
+.banner .carousel {
   height: 520px;
 }
-
-.carousel-item img {
+.banner .carousel-item img {
   height: 520px;
 }
-
-.carousel-text {
+.banner .carousel-text {
   position: absolute;
   top: 150px;
   left: 85px;
   width: 45%;
 }
-
-.carousel-text-1 {
+.banner .carousel-text-1 {
   position: absolute;
   top: 120px;
   left: 85px;
   width: 45%;
 }
-
-.carousel-text h1, .carousel-text .h1,
-.carousel-text-1 h1,
-.carousel-text-1 .h1 {
+.banner .carousel-text h1, .banner .carousel-text .h1,
+.banner .carousel-text-1 h1,
+.banner .carousel-text-1 .h1 {
   font-size: 70px;
 }
-
-.carousel-btn {
+.banner .carousel-btn {
   border: 2px solid #000;
   border-radius: 0;
   width: 15rem;
   height: 3rem;
   transition: all 0.5s ease 0s;
 }
-
-.carousel-btn:hover {
+.banner .carousel-btn:hover {
   border: 2px solid #618109;
   border-radius: 0;
   color: #f6f6f6;
@@ -10992,7 +10986,9 @@ body {
   color: #555252;
   line-height: 24px;
 }
-.product-tab-list a.active h4, .product-tab-list a.active .h4, .product-tab-list a h4:hover, .product-tab-list a .h4:hover {
+.product-tab-list a.active h4, .product-tab-list a.active .h4,
+.product-tab-list a h4:hover,
+.product-tab-list a .h4:hover {
   color: #79a206;
   border-bottom: 2px solid #79a206;
 }
@@ -11023,6 +11019,54 @@ body {
 .service-content .service-text .service-btn:hover {
   background-color: #79a206;
   border: 2px solid #618109;
+}
+
+.review .section_title {
+  font-family: Lora;
+  margin-bottom: 30px;
+}
+.review .section_title h1::before, .review .section_title .h1::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #222222;
+  top: 70px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.review .review-item {
+  margin-top: 30px;
+}
+.review .review-item .testimonial-icon-img {
+  margin-bottom: 45px;
+}
+.review .review-item .testimonial_content > p {
+  font-size: 17px;
+  font-style: italic;
+  margin-bottom: 0;
+  padding: 0 162px;
+  line-height: 30px;
+}
+.review .review-item .testimonial_content .testimonial_text_img {
+  margin-top: 22px;
+}
+.review .review-item .testimonial_content .testimonial_author {
+  margin-top: 17px;
+}
+.review .review-item .testimonial_content .testimonial_author p {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+}
+.review .review-item .testimonial_content .testimonial_author p a {
+  text-decoration: none;
+  color: #000;
+}
+.review .review-item .testimonial_content .testimonial_author p a:hover {
+  color: #79a206;
 }
 
 /*# sourceMappingURL=style.css.map */
