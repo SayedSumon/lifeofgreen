@@ -10760,6 +10760,63 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.breadcrumb-area {
+  background-color: #f7f7f7;
+  padding: 35px 0;
+  margin-top: 2rem;
+}
+.breadcrumb-area span > span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.breadcrumb-area a {
+  color: #5b5858;
+  text-decoration: none;
+}
+.breadcrumb-area a:hover {
+  color: #79a206;
+}
+.breadcrumb-area span > span > span {
+  margin: 0 10px;
+}
+
+.sidebar-style .sidebar-widget .pro-sidebar-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form {
+  position: relative;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form input {
+  width: 100%;
+  font-size: 14px;
+  height: 43px;
+  padding: 2px 55px 2px 18px;
+  color: #000;
+  border: 1px solid #efefef;
+  background: transparent none repeat scroll 0 0;
+  box-shadow: none;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form button {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-50%);
+  color: #a1a5aa;
+  border: none;
+  border-left: 1px solid #a1a5aa;
+  border-image: none;
+  background: transparent none repeat scroll 0 0;
+}
+
 body {
   background-color: #FFFFFF;
   width: 100%;
@@ -11442,6 +11499,10 @@ body {
 .footer_bottom .footer_payment img {
   max-width: 100%;
   height: auto;
+}
+
+.small-area {
+  margin: 100px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

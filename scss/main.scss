@@ -9,6 +9,10 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // All custom code
+@import "breadcrumb";
+@import "shop";
+
+
 body {
     background-color: #FFFFFF;
     width: 100%;
@@ -834,4 +838,8 @@ body {
             height: auto;
         }
     }
+}
+// small area 
+.small-area{
+    margin: 100px 0;
 }

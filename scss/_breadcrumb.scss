@@ -1,0 +1,24 @@
+.breadcrumb-area{
+    background-color: #f7f7f7;
+    padding: 35px 0;
+    margin-top: 2rem;
+
+    span>span{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    a{
+        color: #5b5858;
+        text-decoration: none;
+
+        &:hover{
+            color: #79a206;
+        }  
+    }
+    span>span>span{
+        margin: 0 10px;
+    }
+}

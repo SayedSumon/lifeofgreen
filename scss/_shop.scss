@@ -1,0 +1,38 @@
+.sidebar-style{
+    .sidebar-widget{
+        .pro-sidebar-title{
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            color: #333;
+        }
+        .pro-sidebar-search-form{
+            position: relative;
+            input{
+                width: 100%;
+                font-size: 14px;
+                height: 43px;
+                padding: 2px 55px 2px 18px;
+                color: #000;
+                border: 1px solid #efefef;
+                background:transparent none repeat scroll 0 0;
+                box-shadow: none;
+            }
+            button{
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                padding: 0 15px;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
+                transform: translateY(-50%);
+                color: #a1a5aa;
+                border: none;
+                border-left:1px solid #a1a5aa;
+                border-image:none ;
+                background:transparent none repeat scroll 0 0;
+            }
+        }
+    }
+}
