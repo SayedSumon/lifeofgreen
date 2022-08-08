@@ -10782,6 +10782,9 @@ textarea.form-control-lg {
   margin: 0 10px;
 }
 
+.sidebar-style .sidebar-widget {
+  margin-top: 60px;
+}
 .sidebar-style .sidebar-widget .pro-sidebar-title {
   font-size: 16px;
   font-weight: 500;
@@ -10790,6 +10793,7 @@ textarea.form-control-lg {
 }
 .sidebar-style .sidebar-widget .pro-sidebar-search-form {
   position: relative;
+  margin-top: 30px;
 }
 .sidebar-style .sidebar-widget .pro-sidebar-search-form input {
   width: 100%;
@@ -10815,6 +10819,50 @@ textarea.form-control-lg {
   border-left: 1px solid #a1a5aa;
   border-image: none;
   background: transparent none repeat scroll 0 0;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form button:hover {
+  color: #79a206;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list {
+  margin-top: 30px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list li {
+  position: relative;
+  align-items: center;
+  padding: 0 0 15px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list li button {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 30px;
+  text-align: left;
+  text-transform: capitalize;
+  border: none;
+  background: none;
+  font-size: 14px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list li button .checkmark {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #888;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list li button:hover .checkmark {
+  border-color: #79a206;
+  background-color: #79a206;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list li button:hover {
+  color: #79a206;
 }
 
 body {
@@ -11502,7 +11550,7 @@ body {
 }
 
 .small-area {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

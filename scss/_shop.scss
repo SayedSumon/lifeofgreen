@@ -1,5 +1,6 @@
 .sidebar-style{
     .sidebar-widget{
+        margin-top: 60px;
         .pro-sidebar-title{
             font-size: 16px;
             font-weight: 500;
@@ -8,6 +9,7 @@
         }
         .pro-sidebar-search-form{
             position: relative;
+            margin-top: 30px;
             input{
                 width: 100%;
                 font-size: 14px;
@@ -32,6 +34,55 @@
                 border-left:1px solid #a1a5aa;
                 border-image:none ;
                 background:transparent none repeat scroll 0 0;
+
+                &:hover{
+                    color: #79a206;
+                }
+            }
+        }
+        .sidebar-widget-list{
+            margin-top: 30px;
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: outside none none;
+            }
+            li{
+                position: relative;
+                align-items: center;
+                padding: 0 0 15px;
+
+                button{
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    padding: 0 0 0 30px;
+                    text-align: left;
+                    text-transform: capitalize;
+                    border: none;
+                    background:none;
+                    font-size: 14px;
+
+                    .checkmark{
+                        position: absolute;
+                        left: 0;
+                        top: 15%;
+                        width: 15px;
+                        height: 15px;
+                        border: 2px solid #888; 
+                        border-radius: 3px;
+                        background-color: #fff;
+
+                        
+                    }
+                    &:hover .checkmark {
+                        border-color: #79a206;
+                        background-color: #79a206;
+                     }
+                     &:hover {
+                        color: #79a206;
+                     }
+                }
             }
         }
     }
