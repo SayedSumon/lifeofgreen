@@ -744,16 +744,14 @@ body {
 
     .footer_logo {
         text-align: center;
-
-        .logo {
-            position: absolute;
-            margin-top: 155px;
+        a{
             text-decoration: none;
+        }
+        .logo {
             color: #000;
             font-size: 28px;
             font-weight: 700;
             line-height: 42px;
-            left: 551px;
         }
     }
 

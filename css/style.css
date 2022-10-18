@@ -11469,15 +11469,14 @@ body {
 .footer_top .footer_logo {
   text-align: center;
 }
-.footer_top .footer_logo .logo {
-  position: absolute;
-  margin-top: 155px;
+.footer_top .footer_logo a {
   text-decoration: none;
+}
+.footer_top .footer_logo .logo {
   color: #000;
   font-size: 28px;
   font-weight: 700;
   line-height: 42px;
-  left: 551px;
 }
 .footer_top .footer_social {
   margin-top: 23px;
